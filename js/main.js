@@ -8,19 +8,19 @@ function validateForm(){
 
 	var nuevoNodoNombre = document.createElement("span");
 	var nuevoTextoNombre = document.createTextNode("Ingrese su nombre, la primera letra debe ser en mayuscula");
-	var nombreIngresado = document.getElementsByClassName("name-container")[0];
+	var nombreIngresado = document.getElementsByClassName("input box")[0];
 		nuevoNodoNombre.appendChild(nuevoTextoNombre);
 		nombreIngresado.appendChild(nuevoNodoNombre);
 
 	var nuevoNodoApellido = document.createElement("span");
 	var nuevoTextoApellido = document.createTextNode("Ingrese su apellido, la primera letra debe ser en mayuscula");
-	var apellidoIngresado = document.getElementsByClassName("lastname-container")[0];
+	var apellidoIngresado = document.getElementsByClassName("input box")[1];
 		nuevoNodoApellido.appendChild(nuevoTextoApellido);
 		apellidoIngresado.appendChild(nuevoNodoApellido);
 
 	var nuevoNodoEmail = document.createElement("span");
 	var nuevoTextoEmail = document.createTextNode("Ingrese su correo electrónico");
-	var EmailIngresado = document.getElementsByClassName("email-container")[0];
+	var EmailIngresado = document.getElementsByClassName("input box")[2];
 		nuevoNodoEmail.appendChild(nuevoTextoEmail);
 		EmailIngresado.appendChild(nuevoNodoEmail);	
 	
